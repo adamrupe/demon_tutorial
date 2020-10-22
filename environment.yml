@@ -1,0 +1,4 @@
+name: mpi
+dependencies:
+    - numpy
+    - mpi4py

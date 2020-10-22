@@ -1,4 +1,4 @@
-# Tutorial for using Demon
+# Tutorial for using demon.csc cluster
 Example and test code for getting started on the Linux cluster at the Complexity Sciences Center, UC Davis
 
 ## Getting Started:

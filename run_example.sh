@@ -3,6 +3,7 @@
 #SBATCH --job-name=mpi_ex
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4
+#SBATCH --mem=64000
 #SBATCH --time=0:05:00
 #SBATCH -p parallel
 #SBATCH -o /home/%u/mpi_tutorial/results/result-1/%j.out

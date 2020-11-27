@@ -8,6 +8,8 @@ For information on demon.csc and how to request access, visit http://csc.ucdavis
 Once you have an account, you can log on to demon with ssh:
 
     $ ssh <your_username>@demon.csc.ucdavis.edu
+    
+Use `scp` to transfer files between your local machine and demon; use `scp -r` to transfer directories
 
 On demon, view the available SLURM partitions and their status with 
 

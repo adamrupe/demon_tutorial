@@ -14,6 +14,6 @@ source activate mpi
 
 #export I_MPI_PMI_LIBRARY=/share/apps/slurm-18.08.0/gcc7/lib/slurm/mpi_pmix_v1.so
 
-srun -n 4 hostname
 #mpirun -bootstrap slurm -n 4 python ./mpi_test.py
-#srun -n 4 python ./mpi_test.py
+srun -n 4 python ./mpi_test.py
+#srun -n 4 hostname
